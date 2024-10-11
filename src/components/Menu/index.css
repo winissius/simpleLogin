@@ -1,0 +1,28 @@
+.menu {
+  background-color: #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 24px;
+  padding: 1em 2em;
+}
+
+.menu a:hover {
+  background-color: #555;
+}
+
+Link{
+  border-radius: 24px;
+}

@@ -1,0 +1,56 @@
+body {
+    font-family: 'Calibri Light', sans-serif;
+    background-color: #282828;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+.container {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 520px;
+    max-height: 560px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1em 2em;
+    border-radius: 24px;
+    font-size: 1em;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+input {
+    background-color: #282828;
+    color: white;
+    border: none;
+    padding: 1em;
+    border-radius: 24px;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+input:focus {
+    outline: none;
+    background-color: #333;
+}
+
+
